@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 enum Complexity {
   Simple,
   Challenging,
-  Hrad,
+  Hard,
 }
 
 enum Affordability {
