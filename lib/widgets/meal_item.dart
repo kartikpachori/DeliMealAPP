@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/models/meal.dart';
 import 'package:flutter_complete_guide/screens/meal_details_screen.dart';
