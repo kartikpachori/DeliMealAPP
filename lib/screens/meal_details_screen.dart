@@ -21,7 +21,7 @@ class MealDetailsScreen extends StatelessWidget {
         border: Border.all(color: Colors.grey),
         borderRadius: BorderRadius.circular(10),
       ),
-      height: 150,
+      height: 200,
       width: 300,
       child: child,
     );
