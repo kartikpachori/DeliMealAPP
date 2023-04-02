@@ -9,6 +9,7 @@ import './screens/categories_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
+String kp;
 
 class MyApp extends StatelessWidget {
   @override
