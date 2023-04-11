@@ -8,7 +8,7 @@ class CategoriesScreen extends StatelessWidget {
     return Scaffold(
       //appBar: AppBar(title: const Text('DeliMeal')),
       body: GridView(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(15),
         children: DUMMY_CATEGORIES
             .map((catData) => CategoryItem(
                   catData.id,
@@ -19,7 +19,7 @@ class CategoriesScreen extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
           childAspectRatio: 3 / 2,
-          crossAxisSpacing: 15,
+          crossAxisSpacing: 18,
           mainAxisSpacing: 20,
         ),
       ),
